@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WebApp-Starter-2.0",
-    "slug": "WebApp-Starter-2.0",
+    "name": "radar",
+    "slug": "radar-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
@@ -19,18 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oa17.webappstarter"
     },
     "web": {
       "bundler": "metro",
       "output": "single",
       "favicon": "./assets/images/logo.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cc1285e-af37-4b0c-be66-6990c984305a"
+      }
+    },
+    "owner": "oa17"
   }
 }
